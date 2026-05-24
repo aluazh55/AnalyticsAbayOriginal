@@ -97,7 +97,7 @@ def plot_real_traffic_wave(algo_name, time_limit=600, v_kmh=50):
     ax.legend(handles=legend_elements, loc='upper right')
 
     plt.tight_layout()
-    plt.savefig('Offset_OffsetGridlock', bbox_inches='tight')
+    plt.savefig('Offset_OffsetGridlock.png', bbox_inches='tight')
 
 
 

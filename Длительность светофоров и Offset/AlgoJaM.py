@@ -27,7 +27,7 @@ for idx, algo in enumerate(algorithms):
         if phase in pivot_df.columns:
             ax.plot(pivot_df.index, pivot_df[phase], marker='o', markersize=4, label=phase)
 
-    ax.set_title(f'Длительность фаз в каждом цикле — Jab (алгоритм {algo})', fontsize=14)
+    ax.set_title(f'Длительность фаз в каждом цикле — Jam (алгоритм {algo})', fontsize=14)
     ax.set_xlabel('Количество полных циклов', fontsize=12)
     ax.set_ylabel('Длительность (секунды)', fontsize=12)
     ax.set_ylim(0, 100)
